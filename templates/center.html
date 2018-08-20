@@ -1,203 +1,373 @@
 {% load staticfiles %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
     <title>center</title>
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	  <LINK href="/static/admin.css" type=text/css rel=stylesheet>
-	<style type="text/css">
-	/* #div1{
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+    <LINK href="/static/admin.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        /* #div1{
 
-		width:50%;
-		height:80%;
+            width:50%;
+            height:80%;
 
-	}
-	#div2{
+        }
+        #div2{
 
-		width:50%;
-		height:80%;
+            width:50%;
+            height:80%;
 
-	}
-	#div3{
+        }
+        #div3{
 
-		width:50%;
-		height:80%;
+            width:50%;
+            height:80%;
 
-	}
-	#div4{
+        }
+        #div4{
 
-		width:50%;
-		height:80%;
+            width:50%;
+            height:80%;
 
-	} */
+        } */
 
-</style>
+    </style>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
 
-  </head>
+    <script>
+        //加载dom ready模块
+        $(function(){
+            careDeafultFunction();
+            linkDeafultFunction();
+            noticeDefaultFunction();
+            birthDeafultFunction()
+        }
+        );
+        function careDeafultFunction() {
+            //先清空内容
+            $('.careCustomerTr').remove();
+            //发送ajax获取关怀对象
+            //获取关怀提醒查询时间
+            var selectDays =  $('#selectDays').val();
+            $.get('/main/get_careObj/',{'selectDays':selectDays},function (result) {
+                //解析json对象列表中的selectDays
+                $('.careCustomerTr').remove();
+                if (result.careList.length > 0) {
+                    var careObjList = JSON.parse(result.careList);
+                    //遍历添加tr内容
+                    for (var i = 0; i < careObjList.length; i++) {
+                        //执行trappend函数
+                        var careobj = careObjList[i];
+                        //调用追加tr函数
+                        trAppend(careobj);
+                    }
+                } else {
+                    {#console.log(result.careList);#}
+                    $('#ediTable2').append('<tr class="carecustomerTr"><td height="20" bgcolor="#FFFFFF" colspan="22"  align="center"><div align="center"><span class="STYLE1">没有要关怀的对象！</span></div></td></tr>')
+                }
 
-  <body>
+            })
+        }
+                //如果有关怀内容
+                function trAppend(obj) {
+                    //追加tr标签
+                    $('#ediTable2').append('<tr class="careCustomerTr"><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.care_theme+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.care_time+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.care_people+'</div></td></tr>')
+                }
+        //联系提醒
+        function linkDeafultFunction() {
+            //先清空内容
+            $('.linkCustomerTr').remove();
+            //发送ajax获取关怀对象
+            //获取关怀提醒查询时间
+            var selectDays =  $('#linkSelectDays').val();
+            $.get('/main/get_linkObj/',{'linkSelectDays':selectDays},function (result) {
+                //解析json对象列表中的linkSelectDays
 
-    <form action="<%=basePath%>servlet/WorkQueryServlet" method="post"  >
-	<table class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
-		<tr class=editHeaderTr>
-		<td class=editHeaderTd >  关怀提醒
-		<td class=editHeaderTd >  联系提醒
+                if (result.linkList.length > 0) {
+                    var linkObjList = JSON.parse(result.linkList);
+                    //遍历添加tr内容
+                    for (var i = 0; i < linkObjList.length; i++) {
+                        //执行trappend函数
+                        var careobj = linkObjList[i];
+                        //调用追加tr函数
+                        linkTrAppend(careobj);
+                    }
+                } else {
+                    $('#ediTable3').append('<tr class="linkCustomerTr"><td height="20" bgcolor="#FFFFFF" colspan="22"  align="center"><div align="center"><span class="STYLE1">没有要联系的对象！</span></div></td></tr>')
+                }
 
-  <tr>
-    <td width="50%" bgcolor="#FFFDF0">
-		<div align="center" id="div1">
-		<table  class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
-			<tr>
-					<td bgcolor="#FFFDF0"  colspan="2"><div align="center">查询方式：
-						<select name="addTime" style=" width: 145px">
-							<option  value="0">当天</option>
-							<option  value="7">一周内</option>
-							<option  value="15">半月内</option>
-							<option  value="30">一月内</option>
-						</select>
-					</div></td>
-					<td colspan="2" bgcolor="#FFFFFF"><div align="center"><input style=" width: 45px" type="button"   value="查询"></div></td>
-    			</tr>
-    			 <tr>
-	 				 <td bgcolor="#FFFDF0"><div align="center">关怀主题</div></td>
-		 			 <td bgcolor="#FFFDF0"><div align="center">关怀时间</div></td>
-		 			  <td bgcolor="#FFFDF0"><div align="center">关怀对象</div></td>
-   			 	</tr>
+            })
+        }
+        //如果有关怀内容
+        function linkTrAppend(obj) {
+            //追加tr标签
+            $('#ediTable3').append('<tr class="linkCustomerTr"><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.link_theme+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.link_type+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.link_time+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.who_link+'</div></td></tr>')
+        }
 
+        //ajax获取公告信息
+        function noticeDefaultFunction() {
+            $.get('/main/get_noticeObj/',{'selectDays':'0'},function (result) {
+                //解析json对象列表中的selectDays
+                {#console.log(result.noticeList);#}
+                if (result.noticeList.length > 0) {
+                    var noticeObjList = JSON.parse(result.noticeList);
 
-					<tr>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					</tr>
-          						<tr>
-										<td height="20" bgcolor="#FFFFFF" colspan="22"  align="center">
-											<div align="center">
-												<span class="STYLE1">没有要关怀的对象！</span>
-											</div>
-										</td>
-									</tr>
+                    //遍历添加tr内容
+                    for (var i = 0; i < noticeObjList.length; i++) {
+                        //执行trappend函数
+                        var noticeobj = noticeObjList[i];
+                        //调用追加tr函数
+                        noticeTrAppend(noticeobj);
+                    }
+                } else {
+                    $('#ediTable4').append('<tr class="noticeCustomerTr"><td height="20" bgcolor="#FFFFFF" colspan="22" align="center"><div align="center"><span class="STYLE1">没有有效的公告！</span></div></td></tr>')
+                }
 
-   		 </table>
-		</div>
-	</td>
-    <td bgcolor="#FFFDF0">
-		<div align="center" id="div2">
-			<table  class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
-			<tr>
-					<td bgcolor="#FFFDF0"  colspan="3"><div align="center">查询方式：
-						<select name="addTime1" style=" width: 145px">
-							<option  value="0">当天</option>
-							<option  value="7">一周内</option>
-							<option  value="15">半月内</option>
-							<option  value="30">一月内</option>
-						</select>
-					</div></td>
-					<td colspan="3" bgcolor="#FFFFFF"><div align="center"><input style=" width: 45px" type="button"   value="查询"></div></td>
-    			</tr>
-    			 <tr>
-	 				 <td bgcolor="#FFFDF0"><div align="center">联系主题</div></td>
-		 			 <td bgcolor="#FFFDF0"><div align="center">联系方式</div></td>
-		 			  <td bgcolor="#FFFDF0"><div align="center">应联系时间</div></td>
-		 	   		<td bgcolor="#FFFDF0"><div align="center">联系对象</div></td>
-   			 </tr>
+            })
+        }
+        //如果有公告内容
+        function noticeTrAppend(obj) {
+            //追加tr标签
+            var notice_endtime = obj.fields.notice_endtime;
+            var notice_time = notice_endtime.replace(/T/," ");
+            $('#ediTable4').append('<tr class="noticeCustomerTr"><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.notice_item+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.notice_content+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+notice_time+'</div></td></tr>')
+        }
 
+        //生日提醒
+        function birthDeafultFunction() {
+            //先清空内容
+            $('.birthCustomerTr').remove();
+            //发送ajax获取生日对象
+            //获取生日提醒查询时间
+            {#var selectDays =  $('#birthSelectDays').val();#}
+            $.get('/main/get_birthObj/',{},function (result) {
+                //解析json对象列表中的birthSelectDays
+                    {#console.log(result.birthList)#}
+                if (result.birthList.length > 0) {
+                    var birthObjList = JSON.parse(result.birthList);
+                    //遍历添加tr内容
+                    for (var i = 0; i < birthObjList.length; i++) {
+                        //执行birthTrappend函数
+                        var birthobj = birthObjList[i];
+                        //调用追加tr函数
+                        birthTrAppend(birthobj);
+                    }
+                } else {
+                    $('#ediTable5').append('<tr><td height="20" bgcolor="#FFFFFF" colspan="22" align="center"><div align="center"><span class="STYLE1">没有要过生日的人！</span></div></td></tr>')
+                }
 
-    		<tr>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-   	 		</tr>
-
-          						<tr>
-										<td height="20" bgcolor="#FFFFFF" colspan="22"  align="center">
-											<div align="center">
-												<span class="STYLE1">没有要联系的对象！</span>
-											</div>
-										</td>
-									</tr>
-   		 </table>
-		</div></td>
-    </tr>
-    <tr class=editHeaderTr>
-		<td class=editHeaderTd >  有效公告
-		<td class=editHeaderTd >  生日提醒
-  <tr>
-    <td width="50%" bgcolor="#FFFDF0">
-		<div align="center" id="div3">
-		<table  class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
-
-    			 <tr>
-	 				 <td bgcolor="#FFFDF0"><div align="center">公告主题</div></td>
-		 			 <td bgcolor="#FFFDF0"><div align="center">公告内容</div></td>
-		 			 <td bgcolor="#FFFDF0"><div align="center">截止时间</div></td>
-		 			  <td bgcolor="#FFFDF0"><div align="center">公告人</div></td>
-   			 	</tr>
+            })
+        }
+        //如果有生日的人
+        function birthTrAppend(obj) {
+            //追加tr标签
+            birth_day = obj.fields.birth_day;
+            var birthDay = birth_day.replace(/T.*/,' ');
+            $('#ediTable5').append('<tr><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.customer_name+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+birthDay+'</div></td><td colspan="1" bgcolor="#FFFFFF"><div align="center">'+obj.fields.customer_mobile+'</div></td></tr>')
+        }
 
 
-					<tr>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					</tr>
-          						<tr>
-										<td height="20" bgcolor="#FFFFFF" colspan="22"  align="center">
-											<div align="center">
-												<span class="STYLE1">没有有效的公告！</span>
-											</div>
-										</td>
-									</tr>
+    </script>
+</head>
 
-   		 </table>
-		</div>
-	</td>
-    <td bgcolor="#FFFDF0">
-		<div align="center" id="div4">
-			<table  class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
-			<tr>
-					<td bgcolor="#FFFDF0"  colspan="3"><div align="center">查询方式：
-						<select name="addTime2" style=" width: 145px">
-							<option  value="0">当天</option>
-							<option  value="7">一周内</option>
-							<option  value="15">半月内</option>
-							<option  value="30">一月内</option>
-						</select>
-					</div></td>
-					<td colspan="3" bgcolor="#FFFFFF"><div align="center"><input style=" width: 45px" type="button"   value="查询"></div></td>
-    			</tr>
-    			 <tr>
-	 				 <td bgcolor="#FFFDF0"><div align="center">过生的人</div></td>
-		 			 <td bgcolor="#FFFDF0"><div align="center">生日时间</div></td>
-		 			  <td bgcolor="#FFFDF0"><div align="center">手机号码</div></td>
-		 	   		<td bgcolor="#FFFDF0"><div align="center">客户状态</div></td>
-   			 </tr>
+<body>
+<form action="<%=basePath%>servlet/WorkQueryServlet" method="post">
+    <table class="editTable" cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
+        <tr class=editHeaderTr>
+            <td class=editHeaderTd> 关怀提醒
+            <td class=editHeaderTd> 联系提醒
 
-    		<tr>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-					<td colspan="1" bgcolor="#FFFFFF"><div align="center"></div></td>
-   	 		</tr>
-          						<tr>
-										<td height="20" bgcolor="#FFFFFF" colspan="22"  align="center">
-											<div align="center">
-												<span class="STYLE1">没有要过生日的人！</span>
-											</div>
-										</td>
-									</tr>
-   		 </table>
-		</div></td>
-    </tr>
-</table>
+        <tr>
+            <td width="50%" bgcolor="#FFFDF0">
+                <div align="center" id="div1">
+                    <table class="editTable" id="ediTable2" cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
+                        <tr>
+                            <td bgcolor="#FFFDF0" colspan="2">
+                                <div align="center">查询方式：
+                                    <select id="selectDays" name="addTime" style=" width: 145px">
+                                        <option value="0">当天</option>
+                                        <option value="7">一周内</option>
+                                        <option value="15">半月内</option>
+                                        <option value="30">一月内</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td colspan="2" bgcolor="#FFFFFF">
+                                <div align="center"><input style=" width: 45px" type="button" value="查询" onclick="careDeafultFunction()"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">关怀主题</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">关怀时间</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">关怀对象</div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </td>
+            <td bgcolor="#FFFDF0">
+                <div align="center" id="div2">
+                    <table id="ediTable3" class="editTable" cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
+                        <tr>
+                            <td bgcolor="#FFFDF0" colspan="3">
+                                <div align="center">查询方式：
+
+                                    <select id="linkSelectDays" name="addTime1" style=" width: 145px">
+                                        <option value="0">当天</option>
+                                        <option value="7">一周内</option>
+                                        <option value="15">半月内</option>
+                                        <option value="30">一月内</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td colspan="3" bgcolor="#FFFFFF">
+                                <div align="center"><input style=" width: 45px" type="button" value="查询" onclick="linkDeafultFunction()"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">联系主题</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">联系方式</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">应联系时间</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">联系对象</div>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
+                </div>
+            </td>
+        </tr>
+
+        <tr class=editHeaderTr>
+            <td class=editHeaderTd> 有效公告</td>
+            <td class=editHeaderTd> 生日提醒</td></tr>
+        <tr>
+            <td width="50%" bgcolor="#FFFDF0">
+                <div align="center" id="div3">
+                    <table id="ediTable4" class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
+
+                        <tr>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">公告主题</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">公告内容</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">截止时间</div>
+                            </td>
+{#                            <td bgcolor="#FFFDF0">#}
+{#                                <div align="center">公告人</div>#}
+{#                            </td>#}
+                        </tr>
+
+
+{#                        <tr>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td height="20" bgcolor="#FFFFFF" colspan="22" align="center">#}
+{#                                <div align="center">#}
+{#                                    <span class="STYLE1">没有有效的公告！</span>#}
+{#                                </div>#}
+{#                            </td>#}
+{#                        </tr>#}
+
+                    </table>
+                </div>
+            </td>
+            <td bgcolor="#FFFDF0">
+                <div align="center" id="div4">
+                    <table id="ediTable5" class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
+{#                        <tr>#}
+{#                            <td bgcolor="#FFFDF0" colspan="3">#}
+{#                                <div align="center">查询方式：#}
+{#                                    <select name="addTime2" style=" width: 145px" id="birthSelectDays">#}
+{#                                        <option value="0">当天</option>#}
+{#                                        <option value="7">一周内</option>#}
+{#                                        <option value="15">半月内</option>#}
+{#                                        <option value="30">一月内</option>#}
+{#                                    </select>#}
+{#                                </div>#}
+{#                            </td>#}
+{#                            <td colspan="3" bgcolor="#FFFFFF">#}
+{#                                <div align="center"><input style=" width: 45px" type="button" value="查询" onclick="birthDeafultFunction()"></div>#}
+{#                            </td>#}
+{#                        </tr>#}
+                        <tr>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">今天过生的人</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">生日时间</div>
+                            </td>
+                            <td bgcolor="#FFFDF0">
+                                <div align="center">手机号码</div>
+                            </td>
+{#                            <td bgcolor="#FFFDF0">#}
+{#                                <div align="center">客户状态</div>#}
+{#                            </td>#}
+                        </tr>
+
+{#                        <tr>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                            <td colspan="1" bgcolor="#FFFFFF">#}
+{#                                <div align="center"></div>#}
+{#                            </td>#}
+{#                        </tr>#}
+{#                        <tr>#}
+{#                            <td height="20" bgcolor="#FFFFFF" colspan="22" align="center">#}
+{#                                <div align="center">#}
+{#                                    <span class="STYLE1">没有要过生日的人！</span>#}
+{#                                </div>#}
+{#                            </td>#}
+{#                        </tr>#}
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
 </form>
-  </body>
+</body>
 </html>
 <SCRIPT Language=VBScript><!--
 
-//--></SCRIPT>
+//-->
+</SCRIPT>

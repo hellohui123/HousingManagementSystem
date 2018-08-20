@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正在跳转</title>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<div align="center">修改成功！<span id="skip5s">5</span>秒后跳转到{{ pageName }}</div>
+<input id="skipHref" type="hidden" value="{{ pageHref }}">
+
+<script type="text/javascript">
+
+    var id = 0;
+    var skip5s = document.getElementById('skip5s');
+    var skipHref = $('#skipHref').val();
+
+    id = setInterval(function () {
+        skip5s.innerHTML-=1;
+        if(skip5s.innerHTML<1){
+            window.location= skipHref;
+            clearInterval(id);
+        }
+    },1000);
+
+</script>
+</body>
+</html>
