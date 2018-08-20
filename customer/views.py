@@ -1,16 +1,46 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-<<<<<<< HEAD
+
 import math
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.core import serializers
 # Create your views here.
 from django.views import View
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from models import *
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render
 
-from customer.models import CustomerSource
+import math
 
+# 响应到 'customer_state_add.html'
+# 功能：展示页面；1.添加数据
+def customer_state_add(request):
+
+    if request.method == 'GET':
+        return render(request, 'distribute.html')
+    else:
+        # 获取请求参数
+        conditonName = request.POST.get('conditionName', '')
+        conditionExplain = request.POST.get('conditionExplain', '')
+
+
+        # 非空判读
+        if conditionExplain and conditonName:
+
+            # 将页面获取的数据创建并保存到数据库.表
+            cus_condition = CustomerCondition.objects.create(condition_name=conditonName,condition_explain= conditionExplain)
+            # cus_condition.save()
+
+            # # 传递 condition_name和condition_explain 到页面
+            # return render(request,'customer_state_list.html',{'customer_condition':cus_condition})
+
+            # 重定向到 customer_state_list.html -- 301
+            return HttpResponseRedirect('/customer/customer_state_list.html/')
+
+        return HttpResponse( '添加失败')
 
 def index_view(request):
     user= request.session.get('user_str','')
@@ -18,7 +48,7 @@ def index_view(request):
         return render(request,'index.html')
     else:
         return HttpResponseRedirect('/employee/login/')
-=======
+
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.shortcuts import render
 import datetime,time
@@ -30,12 +60,10 @@ from django.core.paginator import Paginator
 
 def main_view(request):
     return render(request, 'main.html')
->>>>>>> 5eb9938e74366b08ad26ef23b0627190108e9648
+
 
 
 def center(request):
-        # noticeList = NoticeInfo.objects.all()
-
     return render(request, 'center.html')
 def left(request):
     return render(request, 'left.html')
@@ -44,7 +72,7 @@ def top(request):
 def down(request):
     return render(request, 'down.html')
 
-<<<<<<< HEAD
+
 
 def customer_list(request):
     return render(request,'customer_source_list.html')
@@ -110,7 +138,7 @@ class CustomerSourceAdd(View):
             CustomerSource.objects.create(source_name=source_name,is_used =1)
         return HttpResponseRedirect('/customer/customer_source_list.html/')
 
-=======
+
 #关怀提醒
 def get_careObj(request):
 
@@ -446,4 +474,4 @@ def createCustomer(request):
 
 def skip5seconds(request):
     return render(request,'skip5seconds.html')
->>>>>>> 5eb9938e74366b08ad26ef23b0627190108e9648
+
