@@ -1,3 +1,4 @@
+#coding=utf-8
 """HousingManagementSystem URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,5 +19,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/',include('customer.urls'))
+    url(r'^index/',include('customer.urls')),#客户类型跟路由
+    url(r'^adminMana/',include('adminMana.urls')),#管理员路由
+    url(r'^employee/',include('employee.urls'))#房屋类型路由
 ]

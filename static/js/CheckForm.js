@@ -80,7 +80,7 @@ function checkForm(formName)
 				tempArr = checkInteger(obj);
 				if(!tempArr[0])
 				{
-					alert(tempArr[1]);;
+					alert(tempArr[1]);
 					break;
 				}
 			}
@@ -90,7 +90,7 @@ function checkForm(formName)
 				tempArr = checkDate(obj);
 				if(!tempArr[0])
 				{
-					alert(tempArr[1]);;
+					alert(tempArr[1]);
 					break;
 				}
 			}
@@ -100,7 +100,7 @@ function checkForm(formName)
 				tempArr = checkTime(obj);
 				if(!tempArr[0])
 				{
-					alert(tempArr[1]);;
+					alert(tempArr[1]);
 					break;
 				}
 			}
