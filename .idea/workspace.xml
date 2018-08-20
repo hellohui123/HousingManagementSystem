@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f97be50d-242b-4dfe-a293-53b59d562f35" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="838db671-7fc8-469e-833d-b1b43eb39a97" name="Default" comment="客户分配---高照旺" />
+>>>>>>> tianjiadaofenzhi
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +36,13 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="567">
               <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+=======
+            <state relative-caret-position="2700">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+>>>>>>> tianjiadaofenzhi
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -44,8 +53,13 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HousingManagementSystem/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="3213">
               <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+=======
+            <state relative-caret-position="3321">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+>>>>>>> tianjiadaofenzhi
               <folding />
             </state>
           </provider>
@@ -55,10 +69,15 @@
         <entry file="file://$PROJECT_DIR$/customer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
+<<<<<<< HEAD
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <marker date="1534762391026" expanded="true" signature="473:1302" ph="..." />
               </folding>
+=======
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+>>>>>>> tianjiadaofenzhi
             </state>
           </provider>
         </entry>
@@ -67,10 +86,15 @@
         <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
+<<<<<<< HEAD
               <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <marker date="1534762444584" expanded="true" signature="748:880" ph="..." />
               </folding>
+=======
+              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+>>>>>>> tianjiadaofenzhi
             </state>
           </provider>
         </entry>
@@ -78,6 +102,7 @@
       <file leaf-file-name="customer_distribute_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="324">
               <caret line="247" column="57" lean-forward="false" selection-start-line="247" selection-start-column="57" selection-end-line="247" selection-end-column="57" />
               <folding>
@@ -100,6 +125,30 @@
                 <marker date="1534762037124" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
                 <marker date="1534762037124" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
                 <marker date="1534762037124" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+=======
+            <state relative-caret-position="297">
+              <caret line="246" column="21" lean-forward="true" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+              <folding>
+                <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+                <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+                <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+                <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+                <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+                <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+                <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+                <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+                <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+                <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+                <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+                <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+                <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+                <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+                <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+                <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+                <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+                <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+                <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+>>>>>>> tianjiadaofenzhi
               </folding>
             </state>
           </provider>
@@ -120,11 +169,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Python Script" />
+=======
+>>>>>>> tianjiadaofenzhi
         <option value="HTML File" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>9090</find>
@@ -159,12 +212,15 @@
       <find>main_12</find>
     </findStrings>
   </component>
+=======
+>>>>>>> tianjiadaofenzhi
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/HousingManagementSystem/urls.py" />
         <option value="$PROJECT_DIR$/adminMana/urls.py" />
         <option value="$PROJECT_DIR$/adminMana/views.py" />
@@ -190,6 +246,21 @@
         <option value="$PROJECT_DIR$/customer/templates/customer_source_list.html" />
         <option value="$PROJECT_DIR$/templates/top.html" />
         <option value="$PROJECT_DIR$/customer/models.py" />
+=======
+        <option value="$PROJECT_DIR$/customer/migrations/templates/customer_distribute.html" />
+        <option value="$PROJECT_DIR$/templates/left.html" />
+        <option value="$PROJECT_DIR$/customer/tempaltes/customer_distribute_list.html" />
+        <option value="$PROJECT_DIR$/templates/hello.html" />
+        <option value="$PROJECT_DIR$/templates/customer_distribute_list.html" />
+        <option value="$PROJECT_DIR$/customer/templates/customer_distribute.html" />
+        <option value="$PROJECT_DIR$/HousingManagementSystem/settings.py" />
+        <option value="$PROJECT_DIR$/customer/urls.py" />
+        <option value="$PROJECT_DIR$/HousingManagementSystem/urls.py" />
+        <option value="$PROJECT_DIR$/customer/models.py" />
+        <option value="$PROJECT_DIR$/customer/templates/allot.html" />
+        <option value="$PROJECT_DIR$/customer/views.py" />
+        <option value="$PROJECT_DIR$/customer/templates/customer_distribute_list.html" />
+>>>>>>> tianjiadaofenzhi
       </list>
     </option>
   </component>
@@ -200,9 +271,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-16" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+=======
+    <option name="x" value="459" />
+    <option name="width" value="1473" />
+    <option name="height" value="1030" />
+>>>>>>> tianjiadaofenzhi
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,6 +304,31 @@
               <item name="HousingManagementSystem1" type="b2602c69:ProjectViewProjectNode" />
               <item name="HousingManagementSystem1" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="HousingManagementSystem1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HousingManagementSystem1" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HousingManagementSystem1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HousingManagementSystem1" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HousingManagementSystem1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HousingManagementSystem1" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HousingManagementSystem1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HousingManagementSystem1" type="462c0819:PsiDirectoryNode" />
+              <item name="HousingManagementSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> tianjiadaofenzhi
           </expand>
           <select />
         </subPane>
@@ -236,6 +338,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -249,6 +352,13 @@
       <recent name="D:\PycharmProjects\django0423\HousingManagementSystem\customer\templates" />
       <recent name="D:\PycharmProjects\django0423\HousingManagementSystem\employee" />
     </key>
+=======
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> tianjiadaofenzhi
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,20 +372,34 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Django server.HousingManagementSystem">
     <configuration name="HousingManagementSystem" type="Python.DjangoServer" factoryName="Django server">
+=======
+  <component name="RunManager" selected="Django server.HousingManagementSystem1">
+    <configuration name="HousingManagementSystem1" type="Python.DjangoServer" factoryName="Django server">
+>>>>>>> tianjiadaofenzhi
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+<<<<<<< HEAD
         <env name="DJANGO_SETTINGS_MODULE" value="HousingManagementSystem.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Program Files\python27\python.exe" />
+=======
+      </envs>
+      <option name="SDK_HOME" value="" />
+>>>>>>> tianjiadaofenzhi
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="HousingManagementSystem" />
+=======
+      <module name="HousingManagementSystem1" />
+>>>>>>> tianjiadaofenzhi
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -286,12 +410,179 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="HousingManagementSystem1" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HousingManagementSystem1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+>>>>>>> tianjiadaofenzhi
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="f97be50d-242b-4dfe-a293-53b59d562f35" name="Default" comment="" />
       <created>1534298457701</created>
       <option name="number" value="Default" />
@@ -313,12 +604,34 @@
       <updated>1534762669919</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+      <changelist id="838db671-7fc8-469e-833d-b1b43eb39a97" name="Default" comment="" />
+      <created>1534555163320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534555163320</updated>
+    </task>
+    <task id="LOCAL-00001" summary="客户分配---高照旺">
+      <created>1534759642880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534759642880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+>>>>>>> tianjiadaofenzhi
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26457882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> tianjiadaofenzhi
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49881235" sideWeight="0.503268" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -331,7 +644,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> tianjiadaofenzhi
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -340,6 +656,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -355,6 +672,23 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19163764" sideWeight="0.503268" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053012047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44655582" sideWeight="0.49673203" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43975905" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17224622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> tianjiadaofenzhi
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -364,6 +698,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+>>>>>>> tianjiadaofenzhi
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -394,6 +741,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="customer中添加了客户来源功能---段宇&#10;employee中添加了登录功能，公告功能，部门信息功能，房屋信息功能---段宇" />
     <MESSAGE value="客户分配_高照旺" />
     <option name="LAST_COMMIT_MESSAGE" value="客户分配_高照旺" />
@@ -409,26 +757,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2882">
           <caret line="134" column="47" lean-forward="false" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="47" />
+=======
+    <MESSAGE value="客户分配---高照旺" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户分配---高照旺" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+>>>>>>> tianjiadaofenzhi
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django/conf/global_settings.py" />
     <entry file="file://$PROJECT_DIR$/customer/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4862">
           <caret line="223" column="30" lean-forward="false" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/customer/templates/allot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="90" lean-forward="false" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5859">
+          <caret line="217" column="11" lean-forward="false" selection-start-line="217" selection-start-column="11" selection-end-line="217" selection-end-column="11" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6723">
+          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+>>>>>>> tianjiadaofenzhi
           <folding>
             <element signature="e#468#507#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/employee/urls.py" />
     <entry file="file://$PROJECT_DIR$/employee/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+=======
+    <entry file="file://$PROJECT_DIR$/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+>>>>>>> tianjiadaofenzhi
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -437,66 +849,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="440">
           <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding>
             <marker date="1534762444584" expanded="true" signature="748:880" ph="..." />
+=======
+        <state relative-caret-position="540">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/allot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="90" lean-forward="false" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6804">
+          <caret line="252" column="7" lean-forward="true" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+>>>>>>> tianjiadaofenzhi
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/employee/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/customer/urls.py">
+=======
+    <entry file="file://$PROJECT_DIR$/customer/models.py">
+>>>>>>> tianjiadaofenzhi
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <marker date="1534762391026" expanded="true" signature="473:1302" ph="..." />
+=======
+            <element signature="e#468#507#0" expanded="true" />
+>>>>>>> tianjiadaofenzhi
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customer/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="3321">
+          <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+>>>>>>> tianjiadaofenzhi
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/adminMana/urls.py" />
     <entry file="file://$PROJECT_DIR$/adminMana/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3429">
+          <caret line="127" column="50" lean-forward="false" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/allot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="74" lean-forward="false" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#468#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+>>>>>>> tianjiadaofenzhi
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django/contrib/sessions/backends/base.py" />
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django/test/client.py" />
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django/conf/global_settings.py" />
     <entry file="file://$PROJECT_DIR$/employee/apps.py">
+=======
+    <entry file="file://$PROJECT_DIR$/customer/tests.py">
+>>>>>>> tianjiadaofenzhi
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django/template/context.py" />
     <entry file="file://$PROJECT_DIR$/employee/authmiddleware.py" />
     <entry file="file://$PROJECT_DIR$/employee/my_context_processor.py" />
     <entry file="file://D:/Program Files/python27/Lib/site-packages/django_redis/cache.py" />
     <entry file="file://$PROJECT_DIR$/customer/templates/customerSource.html" />
     <entry file="file://$PROJECT_DIR$/HousingManagementSystem/wsgi.py">
+=======
+    <entry file="file://$PROJECT_DIR$/employee/views.py">
+>>>>>>> tianjiadaofenzhi
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/down.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -548,6 +1092,88 @@
     <entry file="file://$PROJECT_DIR$/employee/templates/add_notice.html" />
     <entry file="file://$PROJECT_DIR$/employee/templates/update_house_info.html" />
     <entry file="file://$PROJECT_DIR$/employee/templates/add_house_info.html" />
+=======
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" column="42" lean-forward="false" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute.html" />
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#468#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> tianjiadaofenzhi
     <entry file="file://$PROJECT_DIR$/customer/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -555,6 +1181,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/employee/templates/notice_list.html" />
     <entry file="file://$PROJECT_DIR$/employee/templates/dept_list.html" />
     <entry file="file://$PROJECT_DIR$/employee/templates/house_list.html" />
@@ -562,18 +1189,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3213">
           <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/employee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+>>>>>>> tianjiadaofenzhi
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/customer/templates/customer_source_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-474">
           <caret line="146" column="42" lean-forward="false" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3483">
+          <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+>>>>>>> tianjiadaofenzhi
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/employee/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
@@ -591,21 +1239,63 @@
           <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <marker date="1534762444584" expanded="true" signature="748:880" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/employee/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute.html" />
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5913">
+          <caret line="219" column="47" lean-forward="true" selection-start-line="219" selection-start-column="47" selection-end-line="219" selection-end-column="47" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+>>>>>>> tianjiadaofenzhi
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/employee/urls.py" />
     <entry file="file://$PROJECT_DIR$/customer/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="102" column="89" lean-forward="false" selection-start-line="102" selection-start-column="89" selection-end-line="102" selection-end-column="89" />
+>>>>>>> tianjiadaofenzhi
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -627,6 +1317,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="146" column="73" lean-forward="false" selection-start-line="146" selection-start-column="73" selection-end-line="146" selection-end-column="73" />
+=======
+    <entry file="file://$PROJECT_DIR$/customer.py" />
+    <entry file="file://$PROJECT_DIR$/models.py" />
+    <entry file="file://$PROJECT_DIR$/templates/hello.html" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="158" column="108" lean-forward="true" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminMana/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> tianjiadaofenzhi
         </state>
       </provider>
     </entry>
@@ -640,5 +1374,79 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute.html" />
+    <entry file="file://$PROJECT_DIR$/customer/templates/allot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="90" lean-forward="false" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HousingManagementSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3321">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/templates/customer_distribute_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="246" column="21" lean-forward="true" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+          <folding>
+            <marker date="1534755466065" expanded="true" signature="115:159" ph="    &lt;base href=&quot;http://localhost:8080/crm/... %}" />
+            <marker date="1534755466065" expanded="true" signature="5339:7508" ph="{% for customer in customerDate ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7380:7435" ph="{% if customer.user == '' ... %}" />
+            <marker date="1534755466065" expanded="true" signature="7512:7517" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="7522:7688" ph=" &#9;&#9;&#9;&lt;td width=&quot;2%&quot; height=&quot;22&quot; background=&quot;{% static 'bg.gif' %}&quot; bgcolor=&quot;##FFFFFF&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;input t... %}" />
+            <marker date="1534755466065" expanded="true" signature="7693:7818" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;温庆心&lt;/spa... %}" />
+            <marker date="1534755466065" expanded="true" signature="7823:7949" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;交易客户&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="7954:8080" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;自己上门&lt;/sp... %}" />
+            <marker date="1534755466065" expanded="true" signature="8085:8200" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 8%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;客户&lt;/span&gt;&lt;/div&gt;&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8205:8340" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 20%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;2013-05-25 16:49... %}" />
+            <marker date="1534755466065" expanded="true" signature="8345:8459" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8464:8566" ph="&#9;&#9;&#9;&lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 16%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE1&quot;&gt;&#9;&#9;&#9;&#9;... %}" />
+            <marker date="1534755466065" expanded="true" signature="8571:8573" ph="..." />
+            <marker date="1534755466065" expanded="true" signature="8578:8598" ph="&#9;&#9;&lt;/span&gt;&lt;/div&gt;&lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="8603:8767" ph="            &lt;td height=&quot;20&quot; bgcolor=&quot;##FFFFFF&quot;style=&quot;width: 15%&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;span class=&quot;STYLE4&quot;&gt;&lt;img sr... %}" />
+            <marker date="1534755466065" expanded="true" signature="8772:8839" ph="            &lt;a href=&quot;view/customer/customer_distribute.html&quot;&gt;分配&lt;/... %}" />
+            <marker date="1534755466065" expanded="true" signature="8844:8859" ph="          &lt;/t... %}" />
+            <marker date="1534755466065" expanded="true" signature="9755:10042" ph="{% if  customerDate.has_previous... %}" />
+            <marker date="1534755466065" expanded="true" signature="10059:10311" ph="{% if  customerDate.has_next... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> tianjiadaofenzhi
   </component>
 </project>
