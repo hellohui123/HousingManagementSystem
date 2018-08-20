@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     'employee',
     'adminMana'
 ]
+
 MIDDLEWARE = [
-    # 'django.middleware.cache.UpdateCacheMiddleware',#必须放在第一个
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -53,14 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'django.middleware.cache.FetchFromCacheMiddleware'#必须放在最后一个
-    # 'employee.authmiddleware.Auth'
 ]
-# 设置权限，没有登录不让进入系统
-# AUTH_LIST=[
-#     '/customer/'
-# ]
-
 
 ROOT_URLCONF = 'HousingManagementSystem.urls'
 
@@ -91,18 +84,10 @@ WSGI_APPLICATION = 'HousingManagementSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'crm',
-<<<<<<< HEAD
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'123456'
-=======
         'USER': 'root',
         'PASSWORD': 'xue123',
         'HOST': '127.0.0.1',
         'PORT': '3306',
->>>>>>> 5eb9938e74366b08ad26ef23b0627190108e9648
     }
 }
 
@@ -144,7 +129,6 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-# global_settings
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static','css'),
     os.path.join(BASE_DIR, 'static', 'js'),
