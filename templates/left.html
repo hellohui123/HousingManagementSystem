@@ -135,7 +135,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
 																					onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "
 																					onmouseout="this.style.borderStyle='none'">
 																					<span class="STYLE3"><a
-																						href="../customer/customer_list1.html"
+																						href="/main/customer_list1.html"
 																						target="mainFrame">客户信息</a> </span>
 																				</td>
 																			</tr>
@@ -369,7 +369,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
 																					onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "
 																					onmouseout="this.style.borderStyle='none'">
 																					<span class="STYLE3"><a
-																						href="../employee/emp_list.html" target="mainFrame">员工信息</a>
+																						href="/employee/empl_list.html" target="mainFrame">员工信息</a>
 																					</span>
 																				</td>
 																			</tr>
@@ -655,7 +655,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
 																					onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "
 																					onmouseout="this.style.borderStyle='none'">
 																					<span class="STYLE3"><a
-																						href="../admin/emp_add.html" target="mainFrame">添加员工</a>
+																						href="/employee/emp_add.html" target="mainFrame">添加员工</a>
 																					</span>
 																				</td>
 																			</tr>
@@ -677,7 +677,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
 																					onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "
 																					onmouseout="this.style.borderStyle='none'">
 																					<span class="STYLE3"> <a
-																						href="../admin/dept_add.html"
+																						href=/admin/dept_add.html"
 																						target="mainFrame">添加部门</a> </span>
 																				</td>
 																			</tr>
@@ -699,7 +699,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
 																					onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "
 																					onmouseout="this.style.borderStyle='none'">
 																					<span class="STYLE3"> <a
-																						href="../admin/role_add.html" target="mainFrame">添加角色</a>
+																						href="/admin/role_add.html" target="mainFrame">添加角色</a>
 																					</span>
 																				</td>
 																			</tr>
@@ -753,12 +753,12 @@ imgmenu = eval("imgmenu" + sid);
 if (whichEl.style.display == "none")
 {
 eval("submenu" + sid + ".style.display=\"\";");
-imgmenu.background="<%=basePath%>/static/main_47.gif";
+imgmenu.background="/static/main_47.gif";
 }
 else
 {
 eval("submenu" + sid + ".style.display=\"none\";");
-imgmenu.background="<%=basePath%>/static/main_48.gif";
+imgmenu.background="/static/main_48.gif";
 }
 }
 
