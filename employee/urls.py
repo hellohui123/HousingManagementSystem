@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.conf.urls import url
 
 from employee import views
@@ -23,3 +24,16 @@ urlpatterns = {
     url(r'^add_house_info/$',views.Add_house_info.as_view()),
     url(r'^query_by_keys/$',views.Query_by_keys.as_view())
 }
+=======
+#coding=utf-8
+from django.conf.urls import url
+import views
+
+urlpatterns = [
+    url(r'^empl_list.html',views.get_em_list),
+    url(r'^delUserInfo/',views.deleteUserInfo),
+    url(r'^emp_edit.html',views.get_emp_edit),
+    url(r'^userUpdateServlet/',views.userUpdateServlet),
+    url(r'emp_detail.html',views.emp_detail)
+]
+>>>>>>> 5eb9938e74366b08ad26ef23b0627190108e9648
