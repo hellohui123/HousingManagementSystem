@@ -17,6 +17,7 @@ urlpatterns = {
     url(r'^customer_detail.html', views.get_customer_detail),
     url(r'^customerUpdateServlet/', views.customerUpdateServlet),
     url(r'^deleteCusInfo/',views.deleteCusInfo),
-    url(r'^createCustomer/',views.createCustomer)
+    url(r'^createCustomer/',views.createCustomer),
+    url(r'^skip5seconds',views.skip5seconds)
 
 }

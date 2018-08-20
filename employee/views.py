@@ -146,11 +146,14 @@ def userUpdateServlet(request):
     UserInfo.objects.filter(user_id=userId).update(department=departmentObj,user_sex=userSex,user_diploma=userDiploma,user_tel=userTel,user_bankcard=userBankcard,user_idnum=userIdcard,
                             user_email=userEmail,user_age=userAge,user_nation=userNation,is_married=userIsmarried,user_intest=userIntest,user_mobile=userMobile,
                             user_changeman=userChangeman,user_address=userAddress)
-    return HttpResponseRedirect('/employee/emp_detail.html?id=%s'%userId)
+    # return HttpResponseRedirect('/employee/emp_detail.html?id=%s'%userId)
+    return render(request,'skip5seconds.html',{'pageName':'客户信息页','pageHref':'/employee/emp_detail.html?id='+userId})
 
 
 def emp_detail(request):
     userid = request.GET.get('id','')
     if userid:
         userObj = UserInfo.objects.get(user_id=userid)
-    return render(request,'emp_detail.html',{'userObj':userObj})
+        return render(request,'emp_detail.html',{'userObj':userObj})
+    else:
+        return HttpResponseRedirect('/employee/empl_list.html')

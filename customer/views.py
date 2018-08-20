@@ -295,11 +295,12 @@ def customerUpdateServlet(request):
     userUp = UserInfo.objects.get(user_id=customerForUser)
     sourceUp = CustomerSource.objects.get(source_id=source)
     conditionUp = CustomerCondition.objects.get(condition_id=customerCondition)
+    conditionUp = CustomerCondition.objects.get(condition_id=customerCondition)
     typeUp = CustomerType.objects.get(type_id=customerType)
     customerObj = CustomerInfo.objects.filter(customer_id=customerId)
     customerObj.update(user=userUp,source=sourceUp,condition=conditionUp,type=typeUp,customer_sex=customerSex,customer_mobile=customerMobile,customer_qq=customerQq,customer_email=customerEmail,customer_address=customerAddress,customer_job=customerJob,customer_blog=customerBlog,customer_msn=customerMsn,customer_tel=customerTel,customer_company=customerCompany,change_man=customerChangeMan,customer_remark=customerRemark)
-
-    return HttpResponseRedirect('/main/customer_detail.html?id=%s'%customerId)
+    # return HttpResponseRedirect('/main/customer_detail.html?id=%s'%customerId)
+    return render(request, 'skip5seconds.html', {'pageName': '详情页', 'pageHref': '/main/customer_detail.html?id='+customerId})
 
 
 def deleteCusInfo(request):
@@ -354,4 +355,8 @@ def createCustomer(request):
                            customer_msn=customerMsn, customer_tel=customerTel, customer_company=customerCompany,
                            change_man=customerChangeMan, customer_remark=customerRemark)
 
-        return HttpResponseRedirect('/main/customer_list1.html')
+        return render(request,'skip5seconds.html',{'pageName':'客户信息页','pageHref':'/main/customer_list1.html'})
+
+
+def skip5seconds(request):
+    return render(request,'skip5seconds.html')
