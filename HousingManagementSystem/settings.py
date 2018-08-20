@@ -1,3 +1,4 @@
+#coding=utf-8
 """
 Django settings for HousingManagementSystem project.
 
@@ -13,6 +14,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.conf import global_settings
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -25,7 +28,7 @@ SECRET_KEY = 'v+g1ah0e64w$9lczsf3mxx#-cr-_73sv*j0t#t7c@)&0d&m#i)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,8 +44,8 @@ INSTALLED_APPS = [
     'employee',
     'adminMana'
 ]
-
 MIDDLEWARE = [
+    # 'django.middleware.cache.UpdateCacheMiddleware',#必须放在第一个
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -50,7 +53,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'django.middleware.cache.FetchFromCacheMiddleware'#必须放在最后一个
+    # 'employee.authmiddleware.Auth'
 ]
+# 设置权限，没有登录不让进入系统
+# AUTH_LIST=[
+#     '/customer/'
+# ]
+
 
 ROOT_URLCONF = 'HousingManagementSystem.urls'
 
@@ -66,6 +76,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'employee.my_context_processor.uname_context_processor'
             ],
         },
     },
@@ -81,10 +92,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'crm',
+<<<<<<< HEAD
+        'HOST':'127.0.0.1',
+        'PORT':'3306',
+        'USER':'root',
+        'PASSWORD':'123456'
+=======
         'USER': 'root',
         'PASSWORD': 'xue123',
         'HOST': '127.0.0.1',
         'PORT': '3306',
+>>>>>>> 5eb9938e74366b08ad26ef23b0627190108e9648
     }
 }
 
@@ -126,8 +144,35 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+# global_settings
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static','css'),
-    os.path.join(BASE_DIR,'static','js'),
-    os.path.join(BASE_DIR,'static','images'),
+    os.path.join(BASE_DIR, 'static', 'js'),
+    os.path.join(BASE_DIR, 'static', 'images'),
+    os.path.join(BASE_DIR,'static','js','My97DatePicker'),
+    os.path.join(BASE_DIR,'static','js','My97DatePicker','lang'),
+    os.path.join(BASE_DIR, 'static', 'js', 'My97DatePicker','skin'),
+    os.path.join(BASE_DIR, 'static', 'js', 'My97DatePicker', 'skin','whyGreen'),
+
 ]
+
+
+#缓存
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    },
+    "redis": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+    }
+}
+
+
+CACHE_MIDDLEWARE_KEY_PREFIX = ''
+CACHE_MIDDLEWARE_SECONDS = 600
+CACHE_MIDDLEWARE_ALIAS = 'redis'
+
+#session存在缓存
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_CACHE_ALIAS = "redis"

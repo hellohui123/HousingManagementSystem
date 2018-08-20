@@ -124,7 +124,7 @@ a {
 																	<td width="50" height="19">
 																		<div align="center">
 																			<a
-																				href="<%=basePath%>servlet/WorkQueryServlet"
+																				href="/customer/center.html"
 																				target="mainFrame"><img
 																					src="/static/main_12.gif"
 																					width="49" height="19">
@@ -133,7 +133,7 @@ a {
 																	</td>
 																	<td width="50">
 																		<div align="center">
-																			<a href="<%=basePath%>login.jsp" target="_parent"><img
+																			<a href="/employee/login/" target="_parent"><img
 																					src="/static/main_20.gif"
 																					width="48" height="19">
 																			</a>
@@ -222,7 +222,10 @@ a {
 											</td>
 											<td width="59%" valign="bottom">
 												<div align="center" class="STYLE1">
-													当前用户：李四</div>
+                                                    {% if uname %}
+                                                        当前用户：{{ uname }}
+                                                    {% endif %}
+													</div>
 											</td>
 											<td width="21%">
 												&nbsp;
